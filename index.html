@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My NewsFeed</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6264bff509.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">MY NEWSFEED</div>
+        <div class="buttons-container">
+            <button id="loadSavedNews">Load Saved News</button>
+            <button id="loadNewNews">Load New News</button>
+        </div>
+        <div id="categoryFilter" class="category-filter">
+            <button class="categorySelect active-category" value="all">All</button>
+            <button class="categorySelect" value="India">India</button>
+            <button class="categorySelect" value="Business">Business</button>
+            <button class="categorySelect" value="Politics">Politics</button>
+            <button class="categorySelect" value="Sports">Sports</button>
+            <button class="categorySelect" value="Technology">Technology</button>
+            <button class="categorySelect" value="Startups">Startups</button>
+            <button class="categorySelect" value="Entertainment">Entertainment</button>
+            <button class="categorySelect" value="Hatke">Hatke</button>
+            <button class="categorySelect" value="International">International</button>
+        </div>        
+    </div>
+    <div id="newsContainer" class="news-container">
+    </div>
+    <div id="template">
+        <div id="head1">GET LATEST NEWS</div><br>
+        <div id="head2">STAY UPDATED</div>
+    </div>
+    
+    <script src="App.js"></script>
+</body>
+</html>

@@ -1,1 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #111;
+}
+
+.container .heading{
+    background-color: #fff;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 800;
+    margin:auto;
+    padding-bottom: 25px;
+    width: 60%;
+    color: black;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 50px 30px;
+
+}
+
+
+.buttons-container button {
+    background-color: #f5d442;
+    text-transform: uppercase;
+    color: #000;
+    width: 40%;
+    font-size: 32px;
+    font-weight: 900;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 30px 30px 30px;
+    cursor: pointer;
+}
+
+/* News container styles */
+.news-container {
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.news-card {
+    position: relative;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 22px;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(61, 134, 229);
+}
+
+.favorite-icon{
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+.fa-solid{
+    color: red;
+}
+
+/* Category filter styles */
+.category-filter {
+    display: none;
+    text-align: center;
+    color: #ddd;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.categorySelect{
+    background-color: #f5d442;
+    color: #000;
+    font-size: 22px;
+    border-radius: 8px;
+    border:none;
+}
+.active-category{
+    background-color: #bfeb2d;
+    font-size: 24px;
+}
+
+#template{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#head1{
+    font-size: 54px;
+    font-weight: 900;
+}
+
+#head2{
+    font-size: 74px;
+    -webkit-text-stroke: 2.5px black;
+    color: transparent; 
+}
+
 
